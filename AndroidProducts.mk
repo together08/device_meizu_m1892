@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_m1892.mk
+    $(LOCAL_DIR)/exthm_m1892.mk
 
 COMMON_LUNCH_CHOICES := \
-    mokee_m1892-userdebug
+    exthm_m1892-userdebug
