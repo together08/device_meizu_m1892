@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_m1892.mk
+    $(LOCAL_DIR)/lineage_m1892.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_m1892-userdebug
+    lineage_m1892-userdebug

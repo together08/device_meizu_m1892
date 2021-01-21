@@ -22,18 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from m1892 device
 $(call inherit-product, device/meizu/m1892/device.mk)
 
-# Inherit some common exTHm stuff.
-$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := exthm_m1892
+PRODUCT_NAME := lineage_m1892
 PRODUCT_BRAND := Meizu
 PRODUCT_DEVICE := m1892
 PRODUCT_MANUFACTURER := Meizu
 PRODUCT_MODEL := 16th Plus
-
-# exTHmUI maintained info
-EXTHM_COMPILERTYPE := OFFICAL
-EXTHM_BUILDTYPE := BETA
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="16thPlus" \
